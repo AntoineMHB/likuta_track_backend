@@ -33,5 +33,5 @@ RUN mvn package -DskipTests
 EXPOSE 8080
 
 # Set the entry point to run the JAR file
-ENTRYPOINT ["java", "-jar", "target/login_signup-0.0.1-SNAPSHOT.jar login_signup.jar"]
+ENTRYPOINT ["java", "-jar", "target/login_signup-0.0.1-SNAPSHOT.jar"]
 
