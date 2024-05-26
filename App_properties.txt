@@ -1,8 +1,7 @@
 spring.application.name=login_signup
-spring.datasource.url=jdbc:postgresql://localhost:5432/likuta_track_db
-spring.datasource.username=postgres
-spring.datasource.password=1234
+spring.datasource.url=jdbc:postgresql://dpg-cp98udcf7o1s739tgp8g-a.oregon-postgres.render.com/likuta_track_db
+spring.datasource.username=likuta_track_db_user
+spring.datasource.password=y2n3Dc9uq1KbKIpXnFZcqluzZ3p2Vqop
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.show-sql=true
-spring.main.allow-circular-references=true
+
